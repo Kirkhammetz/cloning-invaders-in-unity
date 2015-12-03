@@ -18,7 +18,7 @@ public class EnemySpawner : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Boundry();
-		Spawner(); 
+		SpawnUntilFull(); 
 	}
 	
 	// Update is called once per frame
